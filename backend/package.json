@@ -1,0 +1,18 @@
+{
+  "name": "ghiapi",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "csv-parser": "^3.2.1",
+    "csv-server": "^0.5.3",
+    "express": "^5.2.1"
+  }
+}
