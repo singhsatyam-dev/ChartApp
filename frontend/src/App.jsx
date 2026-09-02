@@ -39,7 +39,7 @@ function App() {
   useEffect(() => {
 
     // fetching api url from local api, the backend requires node server.js in backend then npm run dev in frontend to work properly
-    fetch("http://localhost:5000/api/ghi")
+    fetch("https://chartapp-4nyu.onrender.com/api/ghi")
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch GHI data");
