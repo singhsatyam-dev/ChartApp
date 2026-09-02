@@ -1,18 +1,33 @@
-Backend-
-I have used the combined GHI data file from the Question 1 and made a Rest API with the url-"http://localhost:5000/api/ghi" in the backend which fetches all the data of the combinedGHI.csv file in the form of an array in which all the Date and GHI fata is sored.
+# Global Horizontal Irradiance (GHI) Visualization
 
-Frontend-
-The frontend fetches the data from the API and represents it in the form of chart data. It has 3 formats - 1 Day, 7 Days and 30 Days whith the maximum , minimum and average GHI data in the time range.
+A React-based web application that visualizes Global Horizontal Irradiance (GHI) data using an interactive time-series chart.
 
-Tech Used-
+The application uses the combined GHI dataset generated in **Question 1**, exposes the data through a Node.js/Express REST API, and displays it through a responsive React frontend.
 
-1. Node.js, Rest API, Express.js, csv-parser, cors in the Backend.
-2. React.js, Chart.js, Vite in the Frontend.
+---
 
-How to Run -
+## 🔗 Live Demo
 
-1. Run "node server.js" in the backend folder intergrated terminal.
-2. First Run "npm install" then Run "npm run dev" in the frontend folder integrated terminal.
+**Frontend:** https://chartdev-umber.vercel.app/
 
-Backend Link deployed on render = https://chartapp-4nyu.onrender.com
-Frontend Link deployed on Vercel = https://chartdev-umber.vercel.app/
+**Backend API:** https://chartapp-4nyu.onrender.com/api/ghi
+
+**Backend:** https://chartapp-4nyu.onrender.com
+
+## Project Overview
+
+The application follows a simple client-server architecture:
+
+```text
+Combined GHI CSV
+       │
+       ▼
+Node.js + Express Backend
+       │
+       │ GET /api/ghi
+       ▼
+React Frontend
+       │
+       ▼
+Chart.js Visualization
+```
