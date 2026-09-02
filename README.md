@@ -13,3 +13,6 @@ How to Run -
 
 1. Run "node server.js" in the backend folder intergrated terminal.
 2. First Run "npm install" then Run "npm run dev" in the frontend folder integrated terminal.
+
+Backend Link deployed on render = https://chartapp-4nyu.onrender.com
+Frontend Link deployed on Vercel = https://chartdev-umber.vercel.app/
